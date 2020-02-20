@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    background-image: url("../img/fond--abattoir.jpg");
+    background-size: 100% 100%;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;	
+}
+
+.page{
+    position: relative;
+    left: 5%;
+    right: 5%;
+    top: 200;
+    bottom: 200;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 87%;
+    height: 760px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;   
+}
+
+p {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-shadow: 2px 0px 1px #F9ACE5;
+    color: #B9F739;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 5px;	
+    opacity: 10;
+}
+
+
+p1 {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 64px;
+    font-weight: bolder;
+    font-style: normal;
+    margin-top: -100px;
+    text-align: left;
+    text-shadow: 2px 2px 10px #B9F739;
+    color: #F9ACE5;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    word-spacing: 10px;
+    z-index: 0;
+    display: block;
+}
+
+
+a {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-shadow: 0.3px 0.3px 2px #F9ACE5;
+    color: #B9F739;
+	text-align: justify;
+	text-decoration: underline;
+}
+
+a:link {
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-shadow: 0.3px 0.3px 2px #F9ACE5;
+    color: #B9F739;
+	text-align: justify;
+	text-decoration: underline;
+	
+}
+a:visited {
+	text-shadow: 0.3px 0.3px 2px #F9ACE5;
+    color: #B9F739;
+	text-decoration: none;
+}
+a:focus {
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-shadow: 0.3px 0.3px 2px #00CAFF;
+	color:#4A7353;
+	text-align: justify;
+	text-decoration: none;
+}
+a:hover {
+	
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-shadow: 0.3px 0.3px 2px #00CAFF;
+	color:#4A7353;
+	text-align: justify;
+	text-decoration: underline;
+}
+a:active {
+    text-decoration: none;	
+}
+
+
+.bandeaudefillant{  
+	animation-duration: 80s;
+  	animation-name: slidein;
+	animation-direction:normal;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-fill-mode: none;
+	position: absolute;
+   
+	opacity: 1.2;
+	z-index: 0;
+}
+
+@keyframes slidein {
+    from {
+      margin-right: 0%;
+              margin-left: 100%;
+                  width:500px; 
+    }
+  
+    to {
+      margin-left: -2350%;
+        margin-right: 100%;
+      width: 500px;
+    }
+  }

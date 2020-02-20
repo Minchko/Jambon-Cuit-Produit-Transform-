@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1{
+    font-family: Banco;
+    letter-spacing: 8px;
+    background: -webkit-gradient(linear, left top, right bottom, from(#BC6262), to(#CD0000));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-display: block;
+    font-size: 110;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    text-indent: 0px;
+    text-transform: uppercase;
+	}
+
+    .deadprezz{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        overflow-anchor: auto; 
+        scroll-snap-stop: always;
+        scroll-snap-align: start;
+    }
+
+.cadretitre{
+	background-color:#27F122;
+	z-index: 0;
+}
+
+
+body{
+	background-image: url("../img/fondliste.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+p {
+	font-family:"Avenir Next Heavy";
+    font-size: 22px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    color: #000000;
+    line-height: 46px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-shadow: 0px -2px 0.6px #F3D608;
+	position: 50%;
+}
+
+p1 {
+        font-family:"Avenir Next Heavy";
+        font-size: 22px;
+        font-weight: bolder;
+        font-style: normal;
+        text-align: center;
+        display: block;
+        color: #CD0000;
+        line-height: 46px;
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        text-shadow: 0px -2px 0.6px #F3D608;
+        position: 50%;
+        position: relative;
+        display: block;
+        height: 300px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        z-index: 1;
+        overflow-y: scroll;
+
+}
+
+.reduc {
+	font-family:"Avenir Next Heavy";
+    font-size: 14px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #000000;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-shadow: 0px -2px 0.6px #F3D608;
+
+   
+}
+
+
+
+a {
+    color: #000000;
+	text-decoration: underline;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: underline;
+	
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:focus {
+	color:#FBE806; 
+	text-decoration: none;
+}
+a:hover {
+	color:#04FBEE; 
+	text-decoration: underline;
+}
+a:active {
+    text-decoration: none;	
+}
+
+

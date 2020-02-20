@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background:radial-gradient(#7080F0, #7BD1F2, #97EDCD, #E47FEE, #EE7FC2, #FF00FC);
+	background-size: 100% auto;; 
+	background-size: cover;
+}
+
+
+div{
+	padding: 8px 5px 5px 5px;
+}
+
+p {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 13;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+}
+
+p1 {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+	display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: normal;
+    text-indent: 10%;
+    text-align: justify;
+}
+
+a {
+    color: #000000;
+	text-decoration: underline;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: underline;
+	
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:focus {
+	color:#FBE806; 
+	text-decoration: none;
+}
+a:hover {
+	color:#04FBEE; 
+	text-decoration: underline;
+}
+a:active {
+    text-decoration: none;	
+}
+
+.bold {
+    font-weight: 5000;
+    text-transform: uppercase;	
+}

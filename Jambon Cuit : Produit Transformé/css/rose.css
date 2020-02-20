@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+  
+	
+ 
+}
+
+
+.page{
+	margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+  position: absolute;
+  background-image: url("../img/fond rose gris.jpeg");
+  background-size: cover;
+
+}
+
+.page2{
+  margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+  position:relative ;
+  background-image: url("../img/fond rose rose.jpeg");
+  background-size: cover;
+  opacity: 1;
+  z-index: 1;
+}
+
+
+
+.titre{
+  columns: 1;
+  position: absolute;
+  display: initial;
+  width: 1300;
+  height: 700;
+}
+
+
+
+
+
+.text{
+    z-index: 1;
+    top: 10px;
+    left: 10%;
+    right: 10%;
+    bottom: 10px;
+    margin-bottom: 450px;
+    position: relative;
+    width: 85%;
+    height: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+p {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 0.3px 0.3px 2px #7B03F5;
+	color:#34daf9;
+	display: block;
+	z-index: 1;	
+	}
+
+
+
+
+
+a {
+    color: #000000;
+	text-decoration: underline;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: underline;	
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:focus {
+	color:#FBE806; 
+	text-decoration: none;
+}
+a:hover {
+	color:#04FBEE; 
+	text-decoration: underline;
+}
+a:active {
+    text-decoration: none;	
+}
+
+.encart{
+    width: 700px;
+    height: 700px;
+  	display: block;
+	float: right;
+    overflow-y: scroll;
+    background-size: 100%;
+	}
+
+
+#gradient {
+  border: 5px solid;
+  border-image: linear-gradient(49deg, #B016F6, #CAA3EC, #CBFB0F, #F3F956) 20;
+	padding: none;
+}
+
+.encart2{
+    width: 700px;
+    height: 700px;
+  	display: block;
+	float: right;
+    overflow-y: scroll;
+    background-size: 100%;
+	background-color: #000000; 
+	}
+
+#gradient2 {
+  border: 5px solid;
+  border-image: linear-gradient(49deg, #B016F6, #CAA3EC, #CBFB0F, #F3F956) 20;
+	padding: none;	
+}
+
+
+.dispofilm{
+	width:100%;
+	height: 300px;
+	display: grid; 
+	grid-template-columns: 5% 30% 30% 30% 5%;
+	grid-template-rows: 100%;
+	grid-template-areas: "div div div";
+	background-image: radial-gradient(#FBC494, #E3A732, #FAB604);	
+}
+
+
+
+p1 {
+  font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+  font-size: 64px;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: left;
+  text-shadow: 4px -0.7px 2px #527f51;
+  color: #e63651;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  word-spacing: 10px;
+}
+
+p2{
+font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+  font-size: 64px;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: left;
+  text-shadow: 4px 0.3px 2px #f7f251;
+  color:#1b3051;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  word-spacing: 10px;
+z-index: 0;
+}
+
+
+.bandeaudefillant{  
+animation-duration: 50s;
+  animation-name: slidein;
+animation-direction:normal;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-fill-mode: none;
+position: absolute;
+opacity: 1.2;
+z-index: 0;
+}
+
+
+@keyframes slidein {
+from {
+  margin-right: 0%;
+    margin-left: 100%;
+      width:500px; 
+}
+
+to {
+  margin-left: -1100%;
+  margin-right: 100%;
+  width: 500px;
+}
+}
+
+
+
+
+.bold {
+    font-weight: 5000;
+    text-transform: capitalize;
+}

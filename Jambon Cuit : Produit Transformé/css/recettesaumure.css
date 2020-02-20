@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    background-image: url("../img/fond - EAU + ROSE + TRANCHE - recette saumure.jpg");
+    background-size: 100% 100%;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;	
+}
+
+.page{
+    position: relative;
+    left: 5%;
+    right: 5%;
+    top: 200;
+    bottom: 200;
+    overflow-y: scroll;
+    width: 90%;
+    height: 760px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;   
+}
+
+
+p {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-shadow: 0.3px 0.3px 2px #8CDDF8;
+	color: #ACBFC5;
+	text-align: justify;
+}
+
+
+a {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 0.3px 0.3px 2px #F9ACE5;
+	color: #CBCECF;
+	text-decoration: underline;
+}
+
+a:link {
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 0.3px 0.3px 2px #F9ACE5;
+	color: #CBCECF;
+	text-decoration: underline;
+	
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:focus {
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 0.3px 0.3px 2px #F9ACE5;
+	color:#FBE806; 
+	text-decoration: none;
+}
+a:hover {
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 0.3px 0.3px 2px #F9ACE5;
+	color:#04FBEE; 
+	text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;	
+}

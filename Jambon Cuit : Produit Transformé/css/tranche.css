@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	 background-image: url("../img/fond tranche.jpeg"); 
+	background-size: cover;
+
+}
+
+
+.page{
+	margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+	position: absolute;
+}
+
+
+.text{
+	z-index: 1;
+   	top: 100px;
+	left: 10%;
+	right: 10%;
+	bottom: 10px;
+	padding-bottom: 1000;	
+    position: relative;
+   	width: 85%;
+	height: 700px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	z-index: 1;
+}
+
+
+p {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 0.3px 0.3px 2px #ACFE01;
+	color:#172200;
+	display: block;
+	z-index: 2;
+}
+
+
+a {
+    color: #000000;
+	text-decoration: underline;
+}
+a:link {
+	color: #000000;
+	text-decoration: underline;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:focus {
+	color:#FBE806; 
+	text-decoration: none;
+}
+a:hover {
+	color:#04FBEE; 
+	text-decoration: underline;
+}
+a:active {
+    text-decoration: none;	
+}
+
+
+
+
+.encart{
+    width: 400px;
+    height: 400px;
+  	display: block;
+	float: right;
+
+    overflow-y: scroll;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../img/cochon cour.JPG");
+	}
+
+#gradient {
+  border: 5px solid;
+  border-image: linear-gradient(49deg, #B016F6, #CAA3EC, #CBFB0F, #F3F956) 20;
+	padding: none;	
+}
+

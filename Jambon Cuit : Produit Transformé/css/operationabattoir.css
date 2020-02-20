@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+
+div {
+	padding: 20% 20% 20% 20%;
+}
+
+
+h1{
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 46px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    display: block;
+    color: #020202;
+    text-shadow: -1px 1.1px 1.8px #314037;
+    text-transform: uppercase;
+    text-decoration: underline;
+	}
+
+
+p1 {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+  	font-size: 33px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+	display: block;
+	color: #020202;
+    text-shadow: -1px 1.1px 1.8px #314037;
+}
+
+
+p {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 33px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    display: block;
+    color: #020202;
+    text-shadow: -1px 1.1px 1.8px #314037;
+}
+
+
+a {
+    color: #020202;
+    text-shadow: -1px 1.1px 1.8px #314037;
+	text-decoration: underline;
+}
+
+a:link {
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+  	font-size: 33px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    color: #020202;
+    text-shadow: -1px 1.1px 1.8px #314037;
+	text-decoration: underline;
+}
+
+a:visited {
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+  	font-size: 33px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+	display: block;
+    color: #020202;
+    text-shadow: -1px 1.1px 1.8px #314037;
+	text-decoration: none;
+}
+a:focus {
+	color:#FBE806; 
+	text-decoration: none;
+}
+a:hover {
+	color:#04FBEE; 
+	text-decoration: underline;
+}
+a:active {
+    text-decoration: none;	
+}

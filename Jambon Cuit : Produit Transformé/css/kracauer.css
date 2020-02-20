@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.page{
+	margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+	position: absolute;
+}
+
+
+.pasoliniporcherie{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	object-position: center;
+}
+
+p {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+ 	color:#F9D3D4; 
+	text-shadow: 1.2px 1.2px 10px #51069E;
+    font-size: 44px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: justify;
+	z-index: 1;
+	overflow-y: scroll;
+	}
+
+
+p1 {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+ 	color:#F9D3D4; 
+	text-shadow: 1.2px 1.2px 10px #51069E;
+    font-size: 44px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: justify;
+	z-index: 1;
+	overflow-y: scroll;
+	display: block;
+	text-indent: 5%;
+	}
+
+.text{
+    z-index: 1;
+   	top: 100px;
+	left: 10%;
+	right: 10%;
+	bottom: 10px;
+	padding-bottom: 1000;	
+    position: relative;
+   	width: 85%;
+	height: 700px;
+	overflow-y: scroll;	   
+}
+
+
+.italique{
+    font-style: italic;	
+}

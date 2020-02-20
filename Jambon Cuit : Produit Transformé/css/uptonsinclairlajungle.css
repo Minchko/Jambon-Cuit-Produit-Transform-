@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.page{
+	margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+	position: absolute;
+}
+
+
+.cochonheureuxletempsquipasse{
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+p {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+ 	color:#060303; 
+	text-shadow: 1.2px 1.2px 10px #87B6BF;
+    font-size: 44px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: justify;
+	z-index: 1;
+	overflow-y: scroll;
+	}
+
+.text{
+    z-index: 1;
+  	top: 200px;
+	left: 25%;
+	right: 25%;
+	bottom: 200px;
+    position: relative;
+  	width: 50%;
+	height: 400px;
+	overflow-y: scroll;	   
+}
+
+@media screen and (max-width: 640px) {
+  .page {
+   width: 
+    clear:both;
+  }
+}

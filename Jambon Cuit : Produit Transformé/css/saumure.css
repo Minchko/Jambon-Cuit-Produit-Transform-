@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-image: url("../img/Fond eau - saumure copie.png");
+	background-size: contain;
+}
+
+.page{
+    position: relative;
+    left: 100;
+    right: 100;
+    top: 10;
+    bottom: 400;
+    overflow-y: scroll;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 400px;
+}
+
+
+p {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 4px 4px 10px #02006A;
+	color:#F913CA;	
+	line-height: 50px;
+	letter-spacing: 0.7px;
+	word-spacing: 2px;
+
+}
+
+
+
+a {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 0.7px 0.7px 10px #000000;
+	color:#F913CA;	
+	line-height: 50px;
+	text-decoration: underline;
+}
+
+a:link {
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 0.7px 0.7px 10px #000000;
+	color:#F913CA;	
+	line-height: 50px;
+	text-decoration: underline;
+	letter-spacing: 0.7px;
+	word-spacing: 2px;
+	
+}
+a:visited {
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 32px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    text-shadow: 0.7px 0.7px 10px #000000;
+	color:#F913CA;	
+	line-height: 50px;
+	text-decoration: none;
+	letter-spacing: 0.7px;
+	word-spacing: 2px;
+}
+a:focus {
+	color:#FBE806; 
+	text-decoration: none;
+}
+a:hover {
+	color:#04FBEE; 
+	text-decoration: underline;
+}
+a:active {
+    text-decoration: none;	
+}
+
+.encart2{
+    width: 700px;
+    height: 700px;
+  	display: block;
+	float: right;
+    overflow-y: scroll;
+    background-size: 100%;
+	background-color: #000000;
+	}
+
+
+#gradient2 {
+  border: 5px solid;
+  border-image: linear-gradient(49deg, #B016F6, #CAA3EC, #CBFB0F, #F3F956) 20;
+  padding: none;
+}
+
+bold{
+    font-weight: bolder;
+    text-transform:uppercase; 
+	letter-spacing: 6px;
+}

@@ -1,0 +1,28 @@
+body{
+	 background-image:linear-gradient(37deg, #600C62, #A433A7, #E8DB73); 
+	background-size: contain;
+	}
+
+
+
+p3{
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 45px;
+    font-weight: bolder;
+   	text-align: center;
+    text-shadow: 0.7px 0.7px 1.5px #F9ACE5;
+	color:#F70816 ;
+	display: block;
+	line-height: 4;	
+	letter-spacing: 7px;
+	word-spacing: 7px;
+	
+	
+}
+
+
+bold{
+	font-weight: bolder;
+    text-transform:uppercase;
+     
+}

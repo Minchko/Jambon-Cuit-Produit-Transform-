@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	 background-color: #FAE0BC; 
+	background-size: cover;
+}
+
+h1{
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: center;
+    font-style: normal;
+    font-size: 22px;
+    font-family: calligraffitti;
+	}
+
+p {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    color: #612C37;
+    line-height: 23px;
+    word-spacing: 5px;
+    white-space: normal;
+    margin-left: 43px;
+}
+
+p1 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    display: block;
+    font-size: 20px;
+    text-indent: 5%;
+    text-align: left;
+    color: #612C37;
+    line-height: 23px;
+    word-spacing: 5px;
+    white-space: normal;
+    margin-left: 43px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+.encart{
+    width: 600px;
+    height: 420px;
+    display: block;
+	float: right;
+    overflow-y: scroll;
+    background-image: url("../img/fond - EAU + ROSE + TRANCHE - recette saumure.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:center ;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	}
+
+
+
+p3{
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    text-indent: 5%;
+    text-align: justify;
+    color: #ECD900;
+    line-height: 35px;
+    word-spacing: 3px;
+    word-break:normal;
+	hyphens: auto;
+	
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    text-shadow: -4px 4px 1px #5902A4;
+
+}
+
+
+
+
+
+
+a {
+    color: #000000;
+	text-decoration: underline;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: underline;
+	
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:focus {
+	color:#FBE806; 
+	text-decoration: none;
+}
+a:hover {
+	color:#04FBEE; 
+	text-decoration: underline;
+}
+a:active {
+    text-decoration: none;	
+}
+
+.dispophoto{
+    display: grid;
+    columns: 2;
+	grid-template-columns: 45% 40%; 
+	align-content: center;
+	justify-content: center;
+	grid-auto-columns: center;
+
+}
+
+col{
+	justify-content: center;
+}
+
+
+bold{
+    font-weight: bolder;
+    text-transform:uppercase; 
+	letter-spacing: 6px;
+}
+
+
+#gradient {
+    border: 5px solid;
+    border-image: linear-gradient(49deg, #B016F6, #CAA3EC, #CBFB0F, #F3F956) 20;
+      padding: none;	
+  }

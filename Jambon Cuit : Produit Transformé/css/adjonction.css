@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background:linear-gradient(2deg, #3E02F9, #6531D0, #565580, #9EA0DC); 
+	background-size: cover;	
+}
+
+h1{
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+    font-style: normal;
+    font-size: 36px;
+    text-transform: capitalize;
+	display: block;
+	}
+
+p {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 22px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+    line-height: 27px;	
+}
+
+p1 {
+    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+	display: block;
+    font-size: 22px;
+    font-weight: bolder;
+    font-style: normal;
+    text-indent: 10%;
+    text-align: left;
+    line-height: 27px;
+}
+
+a {
+    color: #000000;
+	text-decoration: underline;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: underline;
+	
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:focus {
+	color:#FBE806; 
+	text-decoration: none;
+}
+a:hover {
+	color:#04FBEE; 
+	text-decoration: underline;
+}
+a:active {
+    text-decoration: none;	
+}
+
+.bold {
+   font-weight: 5000;
+    text-transform: uppercase;	
+}

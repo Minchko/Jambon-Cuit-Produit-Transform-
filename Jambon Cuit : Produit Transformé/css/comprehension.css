@@ -63,3 +63,8 @@ a:hover {
 a:active {
     text-decoration: none;	
 }
+
+bold{
+    text-transform: uppercase;
+    font-weight: 5000;
+}

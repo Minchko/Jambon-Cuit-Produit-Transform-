@@ -2,22 +2,8 @@
 /* CSS Document *//*index.html*/
 
 
-header {
-	margin-top: auto;
-    margin-left: 10px;
-	margin-right: 10px;
-    margin-bottom: auto;
-    shape-margin: 0;
-    display: inherit;
-    width: 1000px;
-    height: 4000px	
-}
 
-body{
-	margin: 0;
-	background: space;
 
-}
 
 
 .italique{
@@ -25,63 +11,75 @@ body{
 }
 
 
-
+body{
+    display: flex;
+	
+}
 .titre{
     font-weight: bolder;
     font-size: 78px;
     font-stretch: ultra-condensed;
     letter-spacing: -6px;
     white-space: nowrap;
-    color: #010101;
-    width: 1200px;
-    height: 60px;
+   color: black;
     font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
-    margin-top: 1000px;
-	padding-right: -100px;
-
-	
+    padding-right: -100px;
+    position: relative;
+    background: linear-gradient(42deg, rgb(6, 6, 6), rgb(231, 247, 4), rgb(37, 40, 20));
+    background-repeat: repeat;
+    background-size: 90%;
+    animation: animate 5s linear 1;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(252, 252, 249, 0);
 	}
+
+@keyframes animate {
+  0% {
+    background-position: -200%;
+  }
+  100% {
+    background-position: 1500%;
+  }
+}
+
+
 
 
 p2 {
 	font-family: Banco;
 	letter-spacing: 8px;
-		background: -webkit-gradient(linear, left top, right bottom, from(#BC6262), to(#CD0000));
+		background: -webkit-gradient(linear, left top, right bottom, from(rgb(230, 176, 176)), to(#CD0000));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 
 
-.annonce{
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	scroll-snap-stop: normal;
-	scroll-snap-type: y mandatory;
-	
-	
-}
+
+
 
 
 
 .structurepagevideo{
 	width: 100%;
-	height: 600;
-	overflow-anchor: auto; 
-	scroll-snap-stop: always;
-	
+	height: 100%;
+
 		}
 
 
 .ventbledigital{
 	width: 100%;
-	height: auto;
+	height: 100%;
+	right: 0;
+	bottom: 0;
+	top:0;
+	right:0;
 	position: absolute;
-	overflow-anchor: auto; 
-	scroll-snap-stop: always;
-	scroll-snap-align: start;
+	background-size: 100% 100%;
+	background-color: black;
+	object-fit: cover;
+	background-size: contain;
 }
 
 
@@ -90,24 +88,22 @@ p2 {
     font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
     text-align: center;
     white-space: normal;
-    position: relative;
-    display: block;
+	position: relative;
+	display: block;
     width: 80%;
     height: 380px;
     z-index: 1;
     overflow-y: scroll;
-    overflow-anchor: inherit;
     font-variant: normal;
-    font-size: 37px;
-    visibility: visible;
+    font-size: 52px;
     text-indent: 65px;
     letter-spacing: 4px;
     text-shadow: 1px 1px 8px #FB26F6;
-    line-height: 58px;
+    line-height: 62px;
     color: #000000;
     top: 50px;
     left: 150px;
-    bottom: 400px;
+    bottom: 10px;
     padding-top: 300px;
     padding-bottom: 50px;
 }
@@ -150,8 +146,7 @@ a:active {
 	width: auto;
 	height: auto;
 	position: relative;
-	padding-top: 800px;
-	padding-bottom: 800px;
+
 }
 
 
@@ -189,7 +184,6 @@ p1{
 	display: inline-grid;
 }
 
-
 .eau{
 	grid-column-start: 8; 
 	grid-column-end: 9;
@@ -198,7 +192,6 @@ p1{
 	z-index: 1;
     display: inline-grid;
 }
-
 
 .tranche{
 	grid-column-start: 1; 
@@ -213,23 +206,18 @@ p1{
 
 
 .rotation1{
-	transform: rotate(110deg)
+	transform: rotate(130deg)
 }
-
 .rotation2{
-	transform: rotate(160deg);
-	
-	
-	
+	transform: rotate(170deg);
 }
-
 .rotation3{
 	transform: rotate(30deg);
 }
 
 .flecheTR{
-	grid-column-start: 2; 
-  	grid-column-end: 5; 
+	grid-column-start: 1; 
+  	grid-column-end: 4; 
   	grid-row-start: 3; 
   	grid-row-end: 2;
 	z-index: 0;	
@@ -255,11 +243,83 @@ p1{
 
 .bas{
     font-family: Banco;
-    letter-spacing: 8px;
-    font-size: 33px;
-    background: -webkit-gradient(linear, left top, right bottom, from(#BC6262), to(#CD0000));
+    letter-spacing: 15px;
+    font-size: 65px;
+    background: -webkit-gradient(linear, left top, right bottom, from(rgb(238, 186, 186)), to(#CD0000));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: right;	
+    text-align: center;	
 	bottom: 300px;
+	text-transform: uppercase;
+}
+
+
+
+
+/* GLITCH EFFECT
+***********************/
+.glitch {
+	-webkit-animation: glitch1 2.5s infinite;
+	animation: glitch1 2.5s infinite;
+}
+span.glitch { -webkit-animation: glitch2 1.25s infinite; animation: glitch2 1.25s infinite; }
+@-webkit-keyframes glitch1 {
+  0% { -webkit-transform: none; transform: none; opacity: 1; }
+  7% { -webkit-transform: skew(-0.5deg, -0.9deg); transform: skew(-0.5deg, -0.9deg); opacity: 0.75; }
+  10% {  -webkit-transform: none; transform: none; opacity: 1; }
+  27% { -webkit-transform: none; transform: none; opacity: 1; }
+  30% { -webkit-transform: skew(0.8deg, -0.1deg); transform: skew(0.8deg, -0.1deg); opacity: 0.75; }
+  35% { -webkit-transform: none; transform: none; opacity: 1; }
+  52% { -webkit-transform: none; transform: none; opacity: 1; }
+  55% { -webkit-transform: skew(-1deg, 0.2deg); transform: skew(-1deg, 0.2deg); opacity: 0.75; }
+  50% { -webkit-transform: none; transform: none; opacity: 1; }
+  72% { -webkit-transform: none; transform: none; opacity: 1; }
+  75% { -webkit-transform: skew(0.4deg, 1deg); transform: skew(0.4deg, 1deg); opacity: 0.75; }
+  80% { -webkit-transform: none; transform: none; opacity: 1; }
+  100% { -webkit-transform: none; transform: none; opacity: 1; }
+}
+@keyframes glitch1 {
+  0% { -webkit-transform: none; transform: none; opacity: 1; }
+  7% { -webkit-transform: skew(-0.5deg, -0.9deg); transform: skew(-0.5deg, -0.9deg); opacity: 0.75; }
+  10% { -webkit-transform: none; transform: none; opacity: 1; }
+  27% { -webkit-transform: none; transform: none; opacity: 1; }
+  30% { -webkit-transform: skew(0.8deg, -0.1deg); transform: skew(0.8deg, -0.1deg); opacity: 0.75; }
+  35% { -webkit-transform: none; transform: none; opacity: 1; }
+  52% { -webkit-transform: none; transform: none; opacity: 1; }
+  55% { -webkit-transform: skew(-1deg, 0.2deg); transform: skew(-1deg, 0.2deg); opacity: 0.75; }
+  50% { -webkit-transform: none; transform: none; opacity: 1; }
+  72% { -webkit-transform: none; transform: none; opacity: 1; }
+  75% { -webkit-transform: skew(0.4deg, 1deg); transform: skew(0.4deg, 1deg); opacity: 0.75; }
+  80% { -webkit-transform: none; transform: none; opacity: 1; }
+  100% { -webkit-transform: none; transform: none; opacity: 1; }
+}
+@-webkit-keyframes glitch2 {
+  0% { -webkit-transform: none; transform: none; opacity: 1; }
+  7% { -webkit-transform: skew(-0.7deg, -5deg); transform: skew(-0.7deg, -5deg); opacity: 0.75; }
+  10% {  -webkit-transform: none; transform: none; opacity: 1; }
+  27% { -webkit-transform: none; transform: none; opacity: 1; }
+  30% { -webkit-transform: skew(0.6deg, -0.2deg); transform: skew(0.6deg, -0.2deg); opacity: 0.5; }
+  35% { -webkit-transform: none; transform: none; opacity: 1; }
+  52% { -webkit-transform: none; transform: none; opacity: 1; }
+  55% { -webkit-transform: skew(-45deg, 5deg); transform: skew(-45deg, 5deg); opacity: 0.75; }
+  50% { -webkit-transform: none; transform: none; opacity: 1; }
+  72% { -webkit-transform: none; transform: none; opacity: 1; }
+  75% { -webkit-transform: skew(0.5deg, 12deg); transform: skew(0.5deg, 12deg); opacity: 0.25; }
+  80% { -webkit-transform: none; transform: none; opacity: 1; }
+  100% { -webkit-transform: none; transform: none; opacity: 1; }
+}
+@keyframes glitch2 {
+  0% { -webkit-transform: none; transform: none; opacity: 1; }
+  7% { -webkit-transform: skew(-0.7deg, -5deg); transform: skew(-0.7deg, -5deg); opacity: 0.75; }
+  10% {  -webkit-transform: none; transform: none; opacity: 1; }
+  27% { -webkit-transform: none; transform: none; opacity: 1; }
+  30% { -webkit-transform: skew(0.6deg, -0.2deg); transform: skew(0.6deg, -0.2deg); opacity: 0.5; }
+  35% { -webkit-transform: none; transform: none; opacity: 1; }
+  52% { -webkit-transform: none; transform: none; opacity: 1; }
+  55% { -webkit-transform: skew(-15deg, 0.5deg); transform: skew(-15deg, 0.5deg); opacity: 0.75; }
+  50% { -webkit-transform: none; transform: none; opacity: 1; }
+  72% { -webkit-transform: none; transform: none; opacity: 1; }
+  75% { -webkit-transform: skew(0.5deg, 12deg); transform: skew(0.5deg, 12deg); opacity: 0.25; }
+  80% { -webkit-transform: none; transform: none; opacity: 1; }
+  100% { -webkit-transform: none; transform: none; opacity: 1; }
 }

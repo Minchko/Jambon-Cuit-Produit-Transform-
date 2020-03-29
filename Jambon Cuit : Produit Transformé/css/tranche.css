@@ -47,11 +47,11 @@ p {
 
 
 a {
-    color: #000000;
+    color: #B016F6;
 	text-decoration: underline;
 }
 a:link {
-	color: #000000;
+	color: #B016F6;
 	text-decoration: underline;
 }
 a:visited {
@@ -74,11 +74,10 @@ a:active {
 
 
 .encart{
-    width: 400px;
+    width: 500px;
     height: 400px;
   	display: block;
-	float: right;
-
+	  float: right;
     overflow-y: scroll;
     background-size: cover;
 	background-repeat: no-repeat;
@@ -90,4 +89,118 @@ a:active {
   border-image: linear-gradient(49deg, #B016F6, #CAA3EC, #CBFB0F, #F3F956) 20;
 	padding: none;	
 }
+
+.dispovideo{
+padding-left: 15%;
+padding-top: 30%;
+}
+
+bold {
+	font-weight: 5000;
+    text-transform: uppercase;
+}
+
+p1{
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+	font-size: 32px;
+	font-weight: bolder;
+	font-style: normal;
+	text-align: center;
+	display: block;
+	text-shadow: 4px 0.3px 2px #f7f251;
+	color:#B016F6;
+	white-space: normal;
+	text-transform: uppercase;
+	letter-spacing: 9px;
+	word-spacing: 10px;
+
+
+}
+
+.encart2{
+    width: 800px;
+    height: 500px;
+    display: block;
+	float: left;
+    overflow-y: scroll;
+    background-image: url("../img/Gros plan Roger Ballen.jpeg");
+    background-size: 100%;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	}
+
+
+
+
+/* GLITCH EFFECT
+***********************/
+.glitch {
+	-webkit-animation: glitch1 2.5s infinite;
+	animation: glitch1 2.5s infinite;
+}
+span.glitch { -webkit-animation: glitch2 1.25s infinite; animation: glitch2 1.25s infinite; }
+@-webkit-keyframes glitch1 {
+  0% { -webkit-transform: none; transform: none; opacity: 1; }
+  7% { -webkit-transform: skew(-0.5deg, -0.9deg); transform: skew(-0.5deg, -0.9deg); opacity: 0.75; }
+  10% {  -webkit-transform: none; transform: none; opacity: 1; }
+  27% { -webkit-transform: none; transform: none; opacity: 1; }
+  30% { -webkit-transform: skew(0.8deg, -0.1deg); transform: skew(0.8deg, -0.1deg); opacity: 0.75; }
+  35% { -webkit-transform: none; transform: none; opacity: 1; }
+  52% { -webkit-transform: none; transform: none; opacity: 1; }
+  55% { -webkit-transform: skew(-1deg, 0.2deg); transform: skew(-1deg, 0.2deg); opacity: 0.75; }
+  50% { -webkit-transform: none; transform: none; opacity: 1; }
+  72% { -webkit-transform: none; transform: none; opacity: 1; }
+  75% { -webkit-transform: skew(0.4deg, 1deg); transform: skew(0.4deg, 1deg); opacity: 0.75; }
+  80% { -webkit-transform: none; transform: none; opacity: 1; }
+  100% { -webkit-transform: none; transform: none; opacity: 1; }
+}
+@keyframes glitch1 {
+  0% { -webkit-transform: none; transform: none; opacity: 1; }
+  7% { -webkit-transform: skew(-0.5deg, -0.9deg); transform: skew(-0.5deg, -0.9deg); opacity: 0.75; }
+  10% { -webkit-transform: none; transform: none; opacity: 1; }
+  27% { -webkit-transform: none; transform: none; opacity: 1; }
+  30% { -webkit-transform: skew(0.8deg, -0.1deg); transform: skew(0.8deg, -0.1deg); opacity: 0.75; }
+  35% { -webkit-transform: none; transform: none; opacity: 1; }
+  52% { -webkit-transform: none; transform: none; opacity: 1; }
+  55% { -webkit-transform: skew(-1deg, 0.2deg); transform: skew(-1deg, 0.2deg); opacity: 0.75; }
+  50% { -webkit-transform: none; transform: none; opacity: 1; }
+  72% { -webkit-transform: none; transform: none; opacity: 1; }
+  75% { -webkit-transform: skew(0.4deg, 1deg); transform: skew(0.4deg, 1deg); opacity: 0.75; }
+  80% { -webkit-transform: none; transform: none; opacity: 1; }
+  100% { -webkit-transform: none; transform: none; opacity: 1; }
+}
+@-webkit-keyframes glitch2 {
+  0% { -webkit-transform: none; transform: none; opacity: 1; }
+  7% { -webkit-transform: skew(-0.7deg, -5deg); transform: skew(-0.7deg, -5deg); opacity: 0.75; }
+  10% {  -webkit-transform: none; transform: none; opacity: 1; }
+  27% { -webkit-transform: none; transform: none; opacity: 1; }
+  30% { -webkit-transform: skew(0.6deg, -0.2deg); transform: skew(0.6deg, -0.2deg); opacity: 0.5; }
+  35% { -webkit-transform: none; transform: none; opacity: 1; }
+  52% { -webkit-transform: none; transform: none; opacity: 1; }
+  55% { -webkit-transform: skew(-45deg, 5deg); transform: skew(-45deg, 5deg); opacity: 0.75; }
+  50% { -webkit-transform: none; transform: none; opacity: 1; }
+  72% { -webkit-transform: none; transform: none; opacity: 1; }
+  75% { -webkit-transform: skew(0.5deg, 12deg); transform: skew(0.5deg, 12deg); opacity: 0.25; }
+  80% { -webkit-transform: none; transform: none; opacity: 1; }
+  100% { -webkit-transform: none; transform: none; opacity: 1; }
+}
+@keyframes glitch2 {
+  0% { -webkit-transform: none; transform: none; opacity: 1; }
+  7% { -webkit-transform: skew(-0.7deg, -5deg); transform: skew(-0.7deg, -5deg); opacity: 0.75; }
+  10% {  -webkit-transform: none; transform: none; opacity: 1; }
+  27% { -webkit-transform: none; transform: none; opacity: 1; }
+  30% { -webkit-transform: skew(0.6deg, -0.2deg); transform: skew(0.6deg, -0.2deg); opacity: 0.5; }
+  35% { -webkit-transform: none; transform: none; opacity: 1; }
+  52% { -webkit-transform: none; transform: none; opacity: 1; }
+  55% { -webkit-transform: skew(-15deg, 0.5deg); transform: skew(-15deg, 0.5deg); opacity: 0.75; }
+  50% { -webkit-transform: none; transform: none; opacity: 1; }
+  72% { -webkit-transform: none; transform: none; opacity: 1; }
+  75% { -webkit-transform: skew(0.5deg, 12deg); transform: skew(0.5deg, 12deg); opacity: 0.25; }
+  80% { -webkit-transform: none; transform: none; opacity: 1; }
+  100% { -webkit-transform: none; transform: none; opacity: 1; }
+}
+
+
 

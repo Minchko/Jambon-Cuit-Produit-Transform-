@@ -11,7 +11,7 @@ p {
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
     font-size: 27px;
     font-style: normal;
-    text-align: left;
+    text-align: justify;
     color: #020202;
     text-shadow: -1px 1.1px 1.8px #314037;
     line-height: 30px;
@@ -21,6 +21,27 @@ p {
     font-weight: bolder;
 }
 
+
+p1{
+	font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+    font-size: 34px;
+    font-weight: bolder;
+    font-style: normal;
+  text-align: center;
+    text-shadow: 4px -0.7px 2px #F9ACE5;
+    color: #B9F739;
+	white-space: inherit;
+	display: block;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+	word-spacing: 10px;
+	border: blueviolet;
+	border-radius: 23px;
+	border-style: double;
+	border-width: 10px;
+
+
+}
 
 
 a {
@@ -66,7 +87,7 @@ a:active {
 	grid-template-columns: 10% 40% 40% 10%;
 	grid-template-rows: 100%;
 	grid-template-areas: "div div div div";
-	background-image: radial-gradient(#FBC494, #E3A732, #FAB604);
+	background-image: radial-gradient(rgb(140, 17, 119), rgb(253, 4, 4), rgb(150, 113, 113));
 		
 }
 

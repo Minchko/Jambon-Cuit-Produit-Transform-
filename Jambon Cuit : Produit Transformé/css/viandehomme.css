@@ -95,22 +95,23 @@ a:active {
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
 	left: 150px;
-	row:1;
+	rows:1;
 	}
 
 
 .encart-2{
-    width: 400;
-    height: auto;
-	position: relative;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: block;
     background-image: url("../img/JT- les secrets de la préparation du jambon.png");
 	background-size: cover;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
 	left: 70px;
 	}
 
@@ -126,14 +127,16 @@ a:active {
 	padding: none;
 }
 
-iframe .lessecretsdujambon{
-	object-position: right;
+.dispovideo{
+margin-left: -5%;
 }
 
-.bold{
+
+
+bold{
     font-weight: 400;
     text-transform: uppercase;
-	text-align: center;
+
 }
 
 .italic{

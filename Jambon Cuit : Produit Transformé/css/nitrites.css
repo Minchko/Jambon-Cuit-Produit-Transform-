@@ -141,6 +141,11 @@ p3{
 	text-align: center;
 }
 
+bold{
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
 
 .frisedejambon{
   animation-duration: 15s;

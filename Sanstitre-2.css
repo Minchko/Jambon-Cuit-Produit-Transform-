@@ -89,7 +89,7 @@ p2 {
     text-align: center;
     white-space: normal;
 	position: relative;
-	display: block;
+	
     width: 80%;
     height: 380px;
     z-index: 1;
@@ -107,6 +107,8 @@ p2 {
     padding-top: 300px;
     padding-bottom: 50px;
 }
+
+
 
 
 a {

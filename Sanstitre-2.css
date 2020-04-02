@@ -113,6 +113,7 @@ p2 {
   white-space: normal;
   margin:0;
     padding:0;
+  
 }
 
 
@@ -336,4 +337,9 @@ span.glitch { -webkit-animation: glitch2 1.25s infinite; animation: glitch2 1.25
 
 .italique{
 	font-style: italic;
+}
+
+
+.formesouri{
+  cursor: url('img/tranchedejambonsurpaindemie.png'), auto;
 }

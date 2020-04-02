@@ -7,7 +7,8 @@ body{
 }
 
 .page{
-	overflow-x: hidden;
+    overflow-x: hidden;
+    cursor: url('../img/tranchedejambonsurpaindemie.png'), auto;
 }
 
 
@@ -104,6 +105,7 @@ a:active {
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
+    cursor: help;
 	}
 
 
@@ -169,3 +171,5 @@ p3{
     width: 100%;
   }
 }
+
+

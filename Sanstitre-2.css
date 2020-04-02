@@ -93,9 +93,9 @@ p2 {
 	position: relative;
 	
     width: 80%;
-    height: 380px;
+    /* height: 380px; */
     z-index: 1;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     font-variant: normal;
     font-size: 52px;
     text-indent: 65px;

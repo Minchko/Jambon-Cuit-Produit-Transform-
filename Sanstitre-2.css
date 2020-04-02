@@ -77,9 +77,24 @@ p2 {
 /* .introP{
    
 	position: relative;
+<<<<<<< HEAD
 
    
     z-index: 1;
+=======
+	
+    width: 80%;
+    /* height: 380px; */
+    z-index: 1;
+    /* overflow-y: scroll; */
+    font-variant: normal;
+    font-size: 52px;
+    text-indent: 65px;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 8px #FB26F6;
+    line-height: 62px;
+    color: #000000;
+>>>>>>> cb2074264b9c209686b31af88c5075e78380ef8e
     top: 50px;
     left: 150px;
     bottom: 10px;

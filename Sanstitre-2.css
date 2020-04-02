@@ -4,19 +4,12 @@
 
 
 .section{
-  
+  text-align:center;
+		overflow: hidden;
 }
 
 
-.italique{
-	font-style: italic;
-}
 
-
-body{
-   
-	
-}
 .titre{
     font-weight: bolder;
     font-size: 75px;
@@ -60,57 +53,92 @@ p2 {
 
 
 
-
-
-
-.structurepagevideo{
-	width: 100%;
-	height: 100%;
-
-		}
-
-
-.ventbledigital{
-	width: 100%;
-	height: 100%;
-	right: 0;
-	bottom: 0;
-	top:0;
-	right:0;
-	position: absolute;
-	background-size: 100% 100%;
-	background-color: black;
-	object-fit: cover;
-	background-size: contain;
+.myVideo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top:0;
+  right:0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+   background-color: black; /* in case the video doesn't fit the whole page*/
+    background-image: url(img/ventbledigital.webm);
+    background-position: center center;
+    background-size: contain;
+     object-fit: cover; /*cover video background */
+     z-index:3;
+  
 }
 
 
-.intro{
-    font-weight: bolder;
-    font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
-    text-align: center;
-    white-space: normal;
+
+
+/* .introP{
+   
 	position: relative;
-	
-    width: 80%;
-    height: 380px;
+
+   
     z-index: 1;
-    overflow-y: scroll;
-    font-variant: normal;
-    font-size: 52px;
-    text-indent: 65px;
-    letter-spacing: 4px;
-    text-shadow: 1px 1px 8px #FB26F6;
-    line-height: 62px;
-    color: #000000;
     top: 50px;
     left: 150px;
     bottom: 10px;
-    padding-top: 300px;
-    padding-bottom: 50px;
+    padding-top: 800px;
+    padding-bottom: 800px;
+
+  }
+*/
+
+/* Layer with position absolute in order to have it over the video
+	* --------------------------------------- */
+	#section0 .layer{
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		left: 0;
+    top: 43%;
+   
+  
+
+		/*
+		* Preventing flicker on some browsers
+		* See http://stackoverflow.com/a/36671466/1081396  or issue #183
+		*/
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+/*solves problem with overflowing video in Mac with Chrome */
+#section0{
+  overflow: hidden;
+
 }
 
 
+/* Hiding video controls
+	* See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
+	* --------------------------------------- */
+	video::-webkit-media-controls {
+	  display:none !important;
+	}
+
+p{
+  font-variant: normal;
+  font-size: 52px;
+  text-indent: 65px;
+  letter-spacing: 4px;
+  text-shadow: 1px 1px 8px #FB26F6;
+  line-height: 62px;
+  color: #000000;
+  font-weight: bolder;
+  font-family: "Nimbus Sans L", "Nimbus Sans L Bold", "Nimbus Sans L Bold Italic", "Nimbus Sans L Regular Italic";
+  text-align: center;
+  white-space: normal;
+  margin:0;
+    padding:0;
+
+}
 
 
 a {
@@ -326,4 +354,11 @@ span.glitch { -webkit-animation: glitch2 1.25s infinite; animation: glitch2 1.25
   75% { -webkit-transform: skew(0.5deg, 12deg); transform: skew(0.5deg, 12deg); opacity: 0.25; }
   80% { -webkit-transform: none; transform: none; opacity: 1; }
   100% { -webkit-transform: none; transform: none; opacity: 1; }
+}
+
+
+
+
+.italique{
+	font-style: italic;
 }

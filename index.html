@@ -7,38 +7,22 @@
 <link rel="stylesheet" href="Sanstitre-2.css"type="text/css" media="screen">
 
 <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+<link rel="stylesheet" type="text/css" href="css/fullpage.css"/>
 
 
-
-<script type="text/javascript" src="main.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
-
-
-<script type="text/javascript" src="js/scrolloverflow.js"></script>
-<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
-<script type="text/javascript" src="js/jquery.fullPage.js"></script>
-
-
-
+	
 
 
 <script type="text/javascript" src="js/start.brutalizing.js"></script>
 <script type="text/javascript" src="js/brutalist.js"></script>
+<script type="text/javascript" src="main.js"></script>
 
 
-<script type="text/javascript">
-	$(document).ready(function() {
-		$('#fullpage').fullpage({
-			licenseKey: '425E860E-BB1A42E1-B20A6475-F3627C6C',
-			scrollOverflow: true,
-			autoScrolling:true,
-		});
-	});
-</script>
 
 
 </head>
@@ -53,9 +37,9 @@
 
 	
 	
-<main> 
+
 	
-<div id="fullpage"  >
+<div id="fullpage" >
 	
 
 <div class="section"></div>
@@ -73,18 +57,18 @@
 			
 			
 
-<div class="section" >
+<div class="section" id="section0">
 
-<div class="structurepagevideo"> 
-			
-			
-	<video class="ventbledigital" muted autoplay loop data-keepplaying>
-  	<source src="video/ventbledigital.m4v" type="video/mp4" >	
-	</video>
-			
+
+
+	<video id="myVideo" loop muted data-autoplay>
+		<source src="img/ventbledigital.m4v" type="video/mp4" >	
+			<source src="img/ventbledigital.webm" type="video/webm">	
+	  </video>
+	
 
 		
-	<div class="intro"  >
+	<div class="layer"  >
 				
 		<p> Les habitudes alimentaires disent beaucoup de l’évolution des sociétés. Elles peuvent aussi dire beaucoup de l’évolution. De l’évolution en elle-même. L’évolution, c’est une ligne qui monte sous la forme d’une succession d’étapes. Au fond, on se fait des représentations fausses du véritable caractère de l'évolution, de sa portée, on l'associe à la progression alors qu'elle n'est rien d'autre que le développement de la catastrophe. Le concept de transformation reste le concept de sa motricité, ce concept est déjà ancien. Il faut à nouveau le réfléchir. 
 			</p>
@@ -105,9 +89,7 @@
 		<p>La <a href="comprehension" title="Zone Mentale" onclick="Popup=window.open('txt/comprehension.html','Popup2','toolbar=no,status=no,menubar=no,scrollbars=yes,resizable=yes, width=450,height=1000,left=10 top=100');return false;">compréhension</a> dont a besoin le jambon cuit est une compréhension que l’homme offre à l’homme. La clef qu’il faut travailler est plus que symbolique. Son efficacité provient du réel et y retourne. C’est sa seule mise en œuvre qui donnera au lecteur qui voudra bien suivre sa trajectoire la compréhension de tous les produits transformés, et de lui-même.
 			</p>
 	</div>
-	
 
-</div>
 
 </div>
 
@@ -154,7 +136,25 @@
 </div>
 
 
-</main>	
+<script type="text/javascript" src="js/scrolloverflow.js"></script>
+
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+
+
+<script type="text/javascript">
+  var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: true,
+        scrollOverflow: true,
+        afterRender: function () {
+            $('#myVideo')[0].play();
+        }
+    });
+
+        
+</script>
+
 	
 
 	

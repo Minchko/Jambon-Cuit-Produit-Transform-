@@ -51,8 +51,6 @@ p2 {
 
 
 
-
-
 .myVideo{
   position: absolute;
   right: 0;
@@ -62,7 +60,7 @@ p2 {
   width: 100%;
   height: 100%;
   background-size: 100% 100%;
-   background-color: black; /* in case the video doesn't fit the whole page*/
+    background-color: black; /* in case the video doesn't fit the whole page*/
     background-image: url(img/ventbledigital.webm);
     background-position: center center;
     background-size: contain;
@@ -72,38 +70,6 @@ p2 {
 }
 
 
-
-
-/* .introP{
-   
-	position: relative;
-<<<<<<< HEAD
-
-   
-    z-index: 1;
-=======
-	
-    width: 80%;
-    /* height: 380px; */
-    z-index: 1;
-    /* overflow-y: scroll; */
-    font-variant: normal;
-    font-size: 52px;
-    text-indent: 65px;
-    letter-spacing: 4px;
-    text-shadow: 1px 1px 8px #FB26F6;
-    line-height: 62px;
-    color: #000000;
->>>>>>> cb2074264b9c209686b31af88c5075e78380ef8e
-    top: 50px;
-    left: 150px;
-    bottom: 10px;
-    padding-top: 800px;
-    padding-bottom: 800px;
-
-  }
-*/
-
 /* Layer with position absolute in order to have it over the video
 	* --------------------------------------- */
 	#section0 .layer{
@@ -111,10 +77,7 @@ p2 {
 		z-index: 4;
 		width: 100%;
 		left: 0;
-    top: 43%;
-   
-  
-
+        top: 43%;
 		/*
 		* Preventing flicker on some browsers
 		* See http://stackoverflow.com/a/36671466/1081396  or issue #183
@@ -122,23 +85,21 @@ p2 {
 		-webkit-transform: translate3d(0,0,0);
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
-	}
-
-/*solves problem with overflowing video in Mac with Chrome */
+    }
+    
+    /*solves problem with overflowing video in Mac with Chrome */
 #section0{
   overflow: hidden;
-
 }
-
 
 /* Hiding video controls
 	* See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
 	* --------------------------------------- */
 	video::-webkit-media-controls {
 	  display:none !important;
-	}
-
-p{
+    }
+    
+    p{
   font-variant: normal;
   font-size: 52px;
   text-indent: 65px;
@@ -152,7 +113,6 @@ p{
   white-space: normal;
   margin:0;
     padding:0;
-
 }
 
 

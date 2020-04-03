@@ -51,7 +51,7 @@ p2 {
 
 
 
-.myVideo{
+#myVideo{
   position: absolute;
   right: 0;
   bottom: 0;
@@ -65,7 +65,7 @@ p2 {
     background-position: center center;
     background-size: contain;
      object-fit: cover; /*cover video background */
-     z-index:3;
+     z-index:0;
   
 }
 
@@ -73,11 +73,11 @@ p2 {
 /* Layer with position absolute in order to have it over the video
 	* --------------------------------------- */
 	#section0 .layer{
-		position: absolute;
-		z-index: 4;
-		width: 100%;
-		left: 0;
-        top: 43%;
+    padding-top: 800px;
+    padding-bottom: 800px;
+    padding-left: 15%;
+  
+	
 		/*
 		* Preventing flicker on some browsers
 		* See http://stackoverflow.com/a/36671466/1081396  or issue #183
@@ -87,9 +87,12 @@ p2 {
 		transform: translate3d(0,0,0);
     }
     
+
+
     /*solves problem with overflowing video in Mac with Chrome */
 #section0{
   overflow: hidden;
+  text-align: center;
 }
 
 /* Hiding video controls
@@ -113,6 +116,8 @@ p2 {
   white-space: normal;
   margin:0;
     padding:0;
+    width: 80%;
+   
   
 }
 
@@ -153,7 +158,9 @@ a:active {
 .structurepagetriade{
 	width: auto;
 	height: auto;
-	position: relative;
+  position: relative;
+  
+  
 
 }
 
@@ -162,7 +169,7 @@ a:active {
 .triade{
 	padding-left: 100px;
 	width:auto;
-	height: 800px;
+	height: 900px;
 	display: grid; 
 	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 	grid-template-rows: 25% 25% 25% 25%;
@@ -171,7 +178,8 @@ a:active {
 		"div div div div div div div div div div"
 		"div div div div div div div div div div";
 		background-image: url("img/Fond-triade.jpg");
-	background-size: 100% 150%;
+  background-size: 100% 150%;
+ 
 }
 
 
